@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding: 20px;
+    text-align: center;
+    background-color: #eceae3;
+}
+
+h1{
+    color: red;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input{
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: white;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+
