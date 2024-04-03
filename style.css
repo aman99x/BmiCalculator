@@ -45,4 +45,6 @@ button:hover{
     color: white;
 }
 
-
+#result{
+    margin-top: 10%;
+}

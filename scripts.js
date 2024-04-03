@@ -4,7 +4,7 @@ function BmiCalculator(){
 
     let bmi = weight/ (height/100) **2
 
-    let result = "your bmi is :" + bmi.toFixed(2)
+    let result = "your bmi is : " + bmi.toFixed(2)
 
     if(bmi < 18.5){
         result = result + "you are underweight"
@@ -13,7 +13,7 @@ function BmiCalculator(){
         result = result + "you weight is normal"
     }
     else if(bmi>=25){
-        result = result + "you are overweight"
+        result = result + "  you are overweight"
     }
     else{
         result = "enter valid data"
